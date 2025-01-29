@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "logo-recognition-model"
+version = "0.1.0"
+description = ""
+authors = ["karimvision <kabdulmunaff@brandwatch.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = {extras = ["torch"], version = "^4.48.1"}
+tqdm = "^4.67.1"
+jupyterlab = "^4.3.4"
+pillow = "^11.1.0"
+torchvision = "^0.21.0"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
